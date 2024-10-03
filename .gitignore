@@ -1,1 +1,5 @@
 /target
+
+# Code coverage
+lcov.info
+/coverage
