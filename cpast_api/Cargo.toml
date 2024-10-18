@@ -1,5 +1,5 @@
 [package]
-name = "zero2prod"
+name = "cpast_api"
 version = "0.1.0"
 authors = ["LukeMathWalker <rust@lpalmieri.com>"]
 edition = "2021"
@@ -10,7 +10,7 @@ path = "src/lib.rs"
 
 [[bin]]
 path = "src/main.rs"
-name = "zero2prod"
+name = "cpast_api"
 
 [dependencies]
 actix-web = "4.9.0"

@@ -1,10 +1,10 @@
-name: zero2prod
+name: cpast_api
 # See https://www.digitalocean.com/docs/app-platform/#regional-availability for the available options
 # You can get region slugs from https://www.digitalocean.com/docs/platform/availability-matrix/
 # `fra` stands for Frankfurt (Germany - EU)
 region: fra
 services:
-  - name: zero2prod
+  - name: cpast_api
     # Relative to the repository root
     dockerfile_path: Dockerfile
     source_dir: .

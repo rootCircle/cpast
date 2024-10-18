@@ -672,6 +672,45 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
 
 [[package]]
+name = "cpast_api"
+version = "0.1.0"
+dependencies = [
+ "actix-session",
+ "actix-web",
+ "actix-web-flash-messages",
+ "anyhow",
+ "argon2",
+ "base64 0.22.1",
+ "chrono",
+ "claims",
+ "config",
+ "fake",
+ "linkify",
+ "log",
+ "quickcheck",
+ "quickcheck_macros",
+ "rand",
+ "reqwest",
+ "secrecy",
+ "serde",
+ "serde-aux",
+ "serde_json",
+ "serde_urlencoded",
+ "sqlx",
+ "thiserror",
+ "tokio",
+ "tracing",
+ "tracing-actix-web",
+ "tracing-bunyan-formatter",
+ "tracing-log 0.2.0",
+ "tracing-subscriber",
+ "unicode-segmentation",
+ "uuid",
+ "validator",
+ "wiremock",
+]
+
+[[package]]
 name = "cpufeatures"
 version = "0.2.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3518,45 +3557,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "56c1936c4cc7a1c9ab21a1ebb602eb942ba868cbd44a99cb7cdc5892335e1c85"
 dependencies = [
  "linked-hash-map",
-]
-
-[[package]]
-name = "zero2prod"
-version = "0.1.0"
-dependencies = [
- "actix-session",
- "actix-web",
- "actix-web-flash-messages",
- "anyhow",
- "argon2",
- "base64 0.22.1",
- "chrono",
- "claims",
- "config",
- "fake",
- "linkify",
- "log",
- "quickcheck",
- "quickcheck_macros",
- "rand",
- "reqwest",
- "secrecy",
- "serde",
- "serde-aux",
- "serde_json",
- "serde_urlencoded",
- "sqlx",
- "thiserror",
- "tokio",
- "tracing",
- "tracing-actix-web",
- "tracing-bunyan-formatter",
- "tracing-log 0.2.0",
- "tracing-subscriber",
- "unicode-segmentation",
- "uuid",
- "validator",
- "wiremock",
 ]
 
 [[package]]
