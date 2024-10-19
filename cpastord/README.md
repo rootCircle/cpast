@@ -1,4 +1,13 @@
-# Serenity Hello World Bot with Shuttle
+# cpastcord
+
+**cpastcord** is a Discord bot designed to integrate with the cpast tool, providing competitive programmers with a seamless experience for running and testing their code directly within Discord. This project is currently in its early stages, with the basic framework set up.
+
+## Features
+
+- **Command Handling**: Responds to specific commands with predefined messages.
+- **Integration with cpast**: Future integration with the cpast tool for enhanced debugging and testing.
+
+## Serenity Hello World Bot with Shuttle
 
 In this example we will deploy a Serenity bot with Shuttle that responds to the `!hello` command with `world!`. To run this bot we need a valid Discord Token. To get started log in to the [Discord developer portal](https://discord.com/developers/applications).
 
